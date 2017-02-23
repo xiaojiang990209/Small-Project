@@ -152,15 +152,6 @@ namespace WindowsFormsApplication2
             string[] columns;
             while ((line = sr.ReadLine()) != null)
             {
-                //int commaCount = 0;
-                //for(int j = 0; j < line.Length; j++)
-                //{
-                //    if (line[j] == ',')
-                //    {
-                //        commaCount++;
-                //    }
-                //}
-                //if (count == 600) break;
                 columns = line.Split(',');
                 schoolName.Add(columns[0]);
                 principalName.Add(columns[1]);
